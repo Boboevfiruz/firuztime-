@@ -108,7 +108,11 @@
         padding-top: 55px;
         padding-bottom: 50px; 
     } 
+    .AB-BUY a:hover{
+        background-color: aqua;
+    }
 }
+
 .AB-ourtrust{
     padding-top: 102px;
    text-align: center;
@@ -127,11 +131,14 @@
    }
 }
 .AB-customize-work{
+    width: 1440px;
     height: 1352px;
     background-color: rgba(244, 244, 244, 1);
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 195px;
+
+    
 }
 .AB-customize-item1{
     h1{
@@ -158,8 +165,7 @@
     grid-template-columns: repeat(3, 380px);
     grid-template-rows: 663px;
     gap: 30px;
-    padding-top: 58px;
-   padding-left: 300px;
+   
 }
 .AB-clients{
     @include clientsb();
