@@ -1,41 +1,153 @@
-@media (max-width: 900px){
-  .AB-ourtrust h1 {
-      font-size: 60px;
-      font-weight: 400;
-      line-height: 58.5px;
-      letter-spacing: 0.36px;
-      text-align: center;
-      padding-top: 22px;
-      padding-bottom: 44px;
-  
+@media (max-width: 768px) 
+{
+    body{
+        background-color: lightgray;
+        color: white;
     }
-    .AB-spons{
-      width: 100%;
+    .blackfon{
+        background-color: black;
     }
-    .AB-customize-work {
-      height: 1352px;
-      background-color: rgb(244, 244, 244);
-      display: flex;
-      flex-wrap: wrap;
-      width: 160%;
-      justify-content: center;
+    header{
+        display: flex;
+    }header i{
+        padding: 20px;
+        font-size: xx-large;
     }
-  .AB-customize-item1 h1{
-      font-size: 70px;
-  }
-  .AB-customize-items1{
-    width: 95%;
-  }
-  .AB-customize-item2 p{
-      font-size: 2em;
-      margin: auto;
-      text-align: center;
-      padding-left: 100px;
-  }
-  .AB-customize-work2 {
-      display: grid;
-      grid-template-columns: 380px 380px 380px;
-      grid-template-rows: 663px;        
-      margin-right: 370px;
+    header li{
+        display: inline;
+        margin-left: 100px;
+        justify-content: right;
+        align-content: right;
+        
+    }
+    header ul{
+        margin-left: 300px;
+    }
+    .second{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .secondleft{
+        margin: 25px;
+        background-color: lightslategray;
+        color: black;
+        width: 50%;
+        text-align: center;
+        align-items: center;
+        margin-right: 50px;
+        align-content: center;
+        font-style: italic;
+        padding-top: 50px;
+    }
+    .firstphoto img{
+        margin-left: 50px;
+        width: 100%;
+    }
+    .secondleft h5{
+        color: rgb(94, 92, 92);
+    }
+    .secondleft h3{
+        padding-top: 50px;
+    }
+    .third h2{
+        text-align: center;
+    
+    }
+    .third p{
+        margin: 25px;
+        font-family: Open Sans;
+    }
+    .third a{
+        margin-left: 50px;
+        padding-bottom: 25px;
+    }
+    .fourth{
+        color: black;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .fourth img{
+        margin-top: 40px;
+    }
+    .fourth h1{
+        margin: 45px 400px;
+        display: block;
+      
+    }
+    .fifth{
+        display: flex;
+        color: black;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .fifth div{
+        width: 70%;
+        text-align: center;
+        margin: 10px;
+    }
+    .fifth img{
+        width: 35px;
+        height: 35px;
+    }
+    .fifthimg{
+        text-align: center;
+        margin-top: 70px;
+    }
+    .skills{
+        color: black;
+        justify-content: center;
+        text-align: center;
+        font-size: xx-large;
+        margin-top: 70px;
+    }
+    .skills span{
+        padding: 5px 25px;
+        
+    }.skills2{
+        margin-top: 100px;
+        margin-left: 50px;
+        color: black;
+        display: flex;
+        flex-wrap: wrap;    
+    }.skills2 div img{
+        padding: 20px   ;
+        width: 70%;
+        height: auto;
+        justify-content: center;
+    }.skills2 p{
+        text-align: center;
+    }.learning {
+        display: flex;
+        justify-content: center;
+        color: black;
+        text-align: center;
+        width:  40%;
+        height: auto;
+        flex-wrap: wrap;
+    }.portfolioimage{
+        position: absolute;
+    }.portfoliotext{
+        position: relative;
+        text-align: center;
+        color: black;
+        padding-top: 70px;
+        
+    }.portfolioimage img{
+        width: 100%;
+    
+        
+    }.sixth img{
+        width: 100%;
+        height: auto;
+        margin: 0;
+        border: 0;
+        padding: 0;
+    }.sixth{
+        margin-top: 70px;
+    }footer{
+        background-color: black;
+        color: aliceblue;
+        text-align: center;
+        padding: 25px 0;
     }
 }

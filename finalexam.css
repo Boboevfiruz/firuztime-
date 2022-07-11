@@ -1,0 +1,187 @@
+body{
+    background-color: lightgray;
+    color: white;
+}
+.blackfon{
+    background-color: black;
+    position: relative;
+    z-index: -1;
+}
+header{
+    display: flex;
+}
+header i{
+    padding: 10px;
+    font-size: xx-large;
+}
+header li{
+    display: inline;
+    margin-left: 80px;
+    justify-content: right;
+    align-content: right;
+    
+}
+header ul{
+    margin-left: 250px;
+}
+.second{
+    display: flex;
+    position: relative;
+
+}
+.secondleft{
+    border-right: 100px solid transparent;
+    border-left: 0px solid;
+    border-top: 500px solid gray;
+    width: 45%;
+    height: 0;
+    position: absolute;
+    z-index: -1;
+    text-align: center;
+    padding-left: 10px;
+    /* margin: 25px;
+    background-color: lightslategray;
+    color: black;
+    width: 50%;
+    
+    margin-right: 50px;
+    align-content: center;
+    font-style: italic;
+    padding-top: 50px; */
+}
+.firstphoto{
+    top: 0;
+    left: 70%;  
+    width: 600px; 
+    position: absolute;
+    margin-top: 100px;
+
+}.third{
+    margin-top: 250px;
+}
+.text1{
+    margin-left: 120px;
+    margin-top: 150px;
+    color: black;
+}
+.firstphoto img{
+    margin: 25px;
+    margin-left: 50px;
+    width: 35%;
+    
+}
+.secondleft h5{
+    color: rgb(94, 92, 92);
+}
+.secondleft h3{
+    padding-top: 50px;
+}
+.third h2{
+    text-align: center;
+
+}
+.third p{
+    margin: 25px;
+    font-family: Open Sans;
+}
+.third a{
+    margin-left: 50px;
+    padding-bottom: 25px;
+}
+.fourth{
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+}
+.fourth img{
+    margin-top: 40px;
+}
+.fourth h1{
+    margin: 45px 400px;
+    display: block;
+    border: 5px solid black;
+}
+.fifth{
+    display: flex;
+    color: black;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.fifth div{
+    width: 35%;
+    margin: 10px;
+}
+.fifth img{
+    width: 35px;
+    height: 35px;
+}
+.fifthimg{
+    text-align: center;
+    margin-top: 70px;
+}
+.skills{
+    color: black;
+    justify-content: center;
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 50px;
+}
+.skills span{
+    padding: 5px 25px;
+    border: 4px solid black;
+}
+.skills2{
+    margin-top: 100px;
+    margin-left: 50px;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;    
+}
+.skills2 div img{
+    padding: 10px   ;
+    width: 200px;
+    height: 200px;
+}
+.skills2 p{
+    text-align: center;
+}
+.learning {
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+    text-align: center;
+}
+.learning img{
+    width: 200px;
+    height: 200px;
+}
+.portfolioimage{
+    position: absolute;
+}
+.portfoliotext{
+    position: relative;
+    text-align: center;
+    color: black;
+    padding-top: 70px;
+    
+}
+.portfolioimage img{
+    width: 100%;
+    
+}
+.sixth img{
+    width: 33%;
+    height: 33vh;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+.sixth{
+    margin-top: 70px;
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 25px 0;
+}
